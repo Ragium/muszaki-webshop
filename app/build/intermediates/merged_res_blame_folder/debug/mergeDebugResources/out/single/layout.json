@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-mergeDebugResources-44:\\layout\\item_product.xml",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-47:\\layout\\item_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-mergeDebugResources-44:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-47:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-mergeDebugResources-44:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-47:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-mergeDebugResources-44:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-47:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.muszaki_shop.app-mergeDebugResources-44:/layout/activity_login.xml",
+        "source": "com.example.muszaki_shop.app-main-47:/layout/activity_login.xml"
+    }
+]

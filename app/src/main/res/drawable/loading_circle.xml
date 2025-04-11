@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <rotate
+            android:drawable="@drawable/loading_circle_outer"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:fromDegrees="0"
+            android:toDegrees="360" />
+    </item>
+    <item android:top="2.5dp" android:left="2.5dp" android:right="2.5dp" android:bottom="2.5dp">
+        <rotate
+            android:drawable="@drawable/loading_circle_inner"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:fromDegrees="180"
+            android:toDegrees="0" />
+    </item>
+</layer-list> 

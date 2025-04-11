@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">301307476003-86103s3k3g2r95m1c3qfatpbgm19d17f.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">301307476003</string>
+    <string name="google_api_key" translatable="false">AIzaSyBXIQUn8k5YOyY7sH6LQbdjsWQpN5F5Gh8</string>
+    <string name="google_app_id" translatable="false">1:301307476003:android:ed3599e562b403b49d1996</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBXIQUn8k5YOyY7sH6LQbdjsWQpN5F5Gh8</string>
+    <string name="google_storage_bucket" translatable="false">muszaki-shop.firebasestorage.app</string>
+    <string name="project_id" translatable="false">muszaki-shop</string>
+</resources>

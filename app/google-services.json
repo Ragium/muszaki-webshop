@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "301307476003",
+    "project_id": "muszaki-shop",
+    "storage_bucket": "muszaki-shop.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301307476003:android:ed3599e562b403b49d1996",
+        "android_client_info": {
+          "package_name": "com.example.muszaki_shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301307476003-qb270tk2ogti9ourrn4s9tf79l05ojft.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.muszaki_shop",
+            "certificate_hash": "81748de4f2a0ed8ba1a862113cfd07af9f3ce69c"
+          }
+        },
+        {
+          "client_id": "301307476003-86103s3k3g2r95m1c3qfatpbgm19d17f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXIQUn8k5YOyY7sH6LQbdjsWQpN5F5Gh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301307476003-86103s3k3g2r95m1c3qfatpbgm19d17f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
