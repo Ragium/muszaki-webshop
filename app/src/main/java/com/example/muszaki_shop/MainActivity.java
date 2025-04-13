@@ -72,7 +72,6 @@ public class MainActivity extends AppCompatActivity {
 
         binding.logoutButton.setOnClickListener(v -> {
             mAuth.signOut();
-            showLoading(true);
             binding.loginButton.setVisibility(View.VISIBLE);
             binding.registerButton.setVisibility(View.VISIBLE);
             binding.logoutButton.setVisibility(View.GONE);
