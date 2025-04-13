@@ -2,6 +2,7 @@ package com.example.muszaki_shop;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -45,6 +46,7 @@ public class RegisterActivity extends AppCompatActivity {
             return;
         }
 
+        showLoading(true);
         mAuth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this, task -> {
                     if (task.isSuccessful()) {
@@ -57,5 +59,12 @@ public class RegisterActivity extends AppCompatActivity {
                                 task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                     }
                 });
+    }
+
+
+    private void showLoading(boolean show) {
+        binding.loadingProgressBar.setVisibility(show ? View.VISIBLE : View.GONE);
+        binding.backToLoginButton.setEnabled(!show);
+        binding.registerButton.setEnabled(!show);
     }
 } 

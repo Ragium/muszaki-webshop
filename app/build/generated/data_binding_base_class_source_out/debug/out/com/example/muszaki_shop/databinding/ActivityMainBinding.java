@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -23,7 +24,13 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ScrollView rootView;
 
   @NonNull
-  public final LinearLayout buttonContainer;
+  public final LinearLayout buttonsLayout;
+
+  @NonNull
+  public final MaterialButton cartButton;
+
+  @NonNull
+  public final ProgressBar loadingProgressBar;
 
   @NonNull
   public final MaterialButton loginButton;
@@ -35,20 +42,27 @@ public final class ActivityMainBinding implements ViewBinding {
   public final RecyclerView productsRecyclerView;
 
   @NonNull
+  public final MaterialButton profileButton;
+
+  @NonNull
   public final MaterialButton registerButton;
 
   @NonNull
   public final TextView welcomeText;
 
-  private ActivityMainBinding(@NonNull ScrollView rootView, @NonNull LinearLayout buttonContainer,
+  private ActivityMainBinding(@NonNull ScrollView rootView, @NonNull LinearLayout buttonsLayout,
+      @NonNull MaterialButton cartButton, @NonNull ProgressBar loadingProgressBar,
       @NonNull MaterialButton loginButton, @NonNull MaterialButton logoutButton,
-      @NonNull RecyclerView productsRecyclerView, @NonNull MaterialButton registerButton,
-      @NonNull TextView welcomeText) {
+      @NonNull RecyclerView productsRecyclerView, @NonNull MaterialButton profileButton,
+      @NonNull MaterialButton registerButton, @NonNull TextView welcomeText) {
     this.rootView = rootView;
-    this.buttonContainer = buttonContainer;
+    this.buttonsLayout = buttonsLayout;
+    this.cartButton = cartButton;
+    this.loadingProgressBar = loadingProgressBar;
     this.loginButton = loginButton;
     this.logoutButton = logoutButton;
     this.productsRecyclerView = productsRecyclerView;
+    this.profileButton = profileButton;
     this.registerButton = registerButton;
     this.welcomeText = welcomeText;
   }
@@ -80,9 +94,21 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.buttonContainer;
-      LinearLayout buttonContainer = ViewBindings.findChildViewById(rootView, id);
-      if (buttonContainer == null) {
+      id = R.id.buttonsLayout;
+      LinearLayout buttonsLayout = ViewBindings.findChildViewById(rootView, id);
+      if (buttonsLayout == null) {
+        break missingId;
+      }
+
+      id = R.id.cartButton;
+      MaterialButton cartButton = ViewBindings.findChildViewById(rootView, id);
+      if (cartButton == null) {
+        break missingId;
+      }
+
+      id = R.id.loadingProgressBar;
+      ProgressBar loadingProgressBar = ViewBindings.findChildViewById(rootView, id);
+      if (loadingProgressBar == null) {
         break missingId;
       }
 
@@ -104,6 +130,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.profileButton;
+      MaterialButton profileButton = ViewBindings.findChildViewById(rootView, id);
+      if (profileButton == null) {
+        break missingId;
+      }
+
       id = R.id.registerButton;
       MaterialButton registerButton = ViewBindings.findChildViewById(rootView, id);
       if (registerButton == null) {
@@ -116,8 +148,9 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ScrollView) rootView, buttonContainer, loginButton,
-          logoutButton, productsRecyclerView, registerButton, welcomeText);
+      return new ActivityMainBinding((ScrollView) rootView, buttonsLayout, cartButton,
+          loadingProgressBar, loginButton, logoutButton, productsRecyclerView, profileButton,
+          registerButton, welcomeText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

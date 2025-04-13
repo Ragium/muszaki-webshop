@@ -309,6 +309,23 @@ attr closeIconStartPadding
 attr closeIconTint
 attr closeIconVisible
 attr closeItemLayout
+attr cnb_addBottomInset
+attr cnb_addLeftInset
+attr cnb_addRightInset
+attr cnb_addTopInset
+attr cnb_animationDuration
+attr cnb_backgroundColor
+attr cnb_badgeColor
+attr cnb_iconColor
+attr cnb_iconSize
+attr cnb_iconTintMode
+attr cnb_menuResource
+attr cnb_minExpandedWidth
+attr cnb_orientationMode
+attr cnb_radius
+attr cnb_textAppearance
+attr cnb_textColor
+attr cnb_unselectedColor
 attr collapseContentDescription
 attr collapseIcon
 attr collapsedSize
@@ -1400,6 +1417,8 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+color cnb_default_badge_color
+color cnb_default_unselected_color
 color common_google_signin_btn_text_dark
 color common_google_signin_btn_text_dark_default
 color common_google_signin_btn_text_dark_disabled
@@ -1411,6 +1430,7 @@ color common_google_signin_btn_text_light_disabled
 color common_google_signin_btn_text_light_focused
 color common_google_signin_btn_text_light_pressed
 color common_google_signin_btn_tint
+color darkGgray
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -1457,8 +1477,10 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color gray
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color lightGray
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2085,6 +2107,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color orange
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2093,6 +2116,8 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color purple
+color red
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -2196,6 +2221,15 @@ dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
 dimen clock_face_margin_start
+dimen cnb_badge_size
+dimen cnb_badge_size_numberless
+dimen cnb_badge_stroke_width
+dimen cnb_badge_text_size
+dimen cnb_icon_size
+dimen cnb_space_0
+dimen cnb_space_1
+dimen cnb_space_2
+dimen cnb_space_3
 dimen compat_button_inset_horizontal_material
 dimen compat_button_inset_vertical_material
 dimen compat_button_padding_horizontal_material
@@ -2986,6 +3020,12 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable back
+drawable bell_icon
+drawable btn_1
+drawable btn_2
+drawable btn_3
+drawable btn_4
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2994,6 +3034,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable cart_icon
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -3018,8 +3059,11 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable fav
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_add
+drawable ic_add_to_cart
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
 drawable ic_call_answer_low
@@ -3027,6 +3071,7 @@ drawable ic_call_answer_video
 drawable ic_call_answer_video_low
 drawable ic_call_decline
 drawable ic_call_decline_low
+drawable ic_cart
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_google
@@ -3043,6 +3088,8 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_other_sign_in
 drawable ic_passkey
 drawable ic_password
+drawable ic_profile
+drawable ic_remove
 drawable ic_search_black_24
 drawable loading_animation
 drawable loading_circle
@@ -3070,6 +3117,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable microphone
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -3122,6 +3170,12 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable placeholder
+drawable profile
+drawable search_icon
+drawable settings_icon
+drawable share
+drawable splash_pic
+drawable star
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -3196,6 +3250,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addToCartButton
 id adjust_height
 id adjust_width
 id alertTitle
@@ -3232,12 +3287,17 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id buttonContainer
 id buttonPanel
+id buttonsLayout
 id cache_measures
 id callMeasure
 id cancel_button
 id carryVelocity
+id cartButton
+id cartRecyclerView
+id cbn_item_internal_container
+id cbn_item_notification_count
+id cbn_item_title
 id center
 id centerCrop
 id centerInside
@@ -3248,6 +3308,7 @@ id chain2
 id chains
 id checkbox
 id checked
+id checkoutButton
 id chronometer
 id circle_center
 id clear_text
@@ -3255,6 +3316,7 @@ id clip_horizontal
 id clip_vertical
 id clockwise
 id closest
+id cnb_item_icon
 id collapseActionView
 id compress
 id confirmPasswordInput
@@ -3279,6 +3341,7 @@ id date_picker_actions
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
+id decreaseButton
 id default_activity_button
 id deltaRelative
 id dependency_ordering
@@ -3314,7 +3377,9 @@ id edit_query
 id edit_text_id
 id elastic
 id emailInput
+id emailLabel
 id emailLayout
+id emailTextView
 id embed
 id enabled
 id end
@@ -3358,6 +3423,7 @@ id hideable
 id home
 id homeAsUp
 id honorRequest
+id horizontal
 id horizontal_only
 id icon
 id icon_group
@@ -3368,6 +3434,7 @@ id ignoreRequest
 id image
 id immediateStop
 id included
+id increaseButton
 id indeterminate
 id info
 id invisible
@@ -3451,6 +3518,8 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nameLabel
+id nameTextView
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3511,12 +3580,17 @@ id productImage
 id productName
 id productPrice
 id productsRecyclerView
+id profileButton
+id profileCard
 id progress_circular
 id progress_horizontal
+id quantityLayout
+id quantityText
 id radio
 id ratio
 id rectangles
 id registerButton
+id removeButton
 id report_drawn
 id restart
 id reverse
@@ -3627,6 +3701,7 @@ id title_template
 id toggle
 id top
 id topPanel
+id totalPriceTextView
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -3641,6 +3716,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id vertical
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3777,11 +3853,15 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_cart
 layout activity_login
 layout activity_main
+layout activity_profile
 layout activity_register
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
+layout cnb_horizontal_menu_item
+layout cnb_vertical_menu_item
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3800,6 +3880,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_cart
 layout item_product
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
@@ -5215,6 +5296,8 @@ styleable Carousel carousel_backwardTransition carousel_emptyViewsBehavior carou
 styleable CheckedTextView android_checkMark checkMarkCompat checkMarkTint checkMarkTintMode
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
+styleable ChipMenuItem android_icon android_enabled android_id android_title android_contentDescription cnb_backgroundColor cnb_iconColor cnb_iconTintMode cnb_textColor
+styleable ChipNavigationBar cnb_addBottomInset cnb_addLeftInset cnb_addRightInset cnb_addTopInset cnb_animationDuration cnb_badgeColor cnb_iconSize cnb_menuResource cnb_minExpandedWidth cnb_orientationMode cnb_radius cnb_textAppearance cnb_unselectedColor
 styleable CircularProgressIndicator indicatorDirectionCircular indicatorInset indicatorSize
 styleable ClockFaceView clockFaceBackgroundColor clockNumberTextColor
 styleable ClockHandView clockHandColor materialCircleRadius selectorSize

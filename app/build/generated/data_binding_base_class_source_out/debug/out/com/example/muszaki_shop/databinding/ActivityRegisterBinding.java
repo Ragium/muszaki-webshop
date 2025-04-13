@@ -4,6 +4,7 @@ package com.example.muszaki_shop.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 import android.widget.ScrollView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -37,6 +38,9 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final TextInputLayout emailLayout;
 
   @NonNull
+  public final ProgressBar loadingProgressBar;
+
+  @NonNull
   public final TextInputEditText passwordInput;
 
   @NonNull
@@ -48,14 +52,16 @@ public final class ActivityRegisterBinding implements ViewBinding {
   private ActivityRegisterBinding(@NonNull ScrollView rootView,
       @NonNull MaterialButton backToLoginButton, @NonNull TextInputEditText confirmPasswordInput,
       @NonNull TextInputLayout confirmPasswordLayout, @NonNull TextInputEditText emailInput,
-      @NonNull TextInputLayout emailLayout, @NonNull TextInputEditText passwordInput,
-      @NonNull TextInputLayout passwordLayout, @NonNull MaterialButton registerButton) {
+      @NonNull TextInputLayout emailLayout, @NonNull ProgressBar loadingProgressBar,
+      @NonNull TextInputEditText passwordInput, @NonNull TextInputLayout passwordLayout,
+      @NonNull MaterialButton registerButton) {
     this.rootView = rootView;
     this.backToLoginButton = backToLoginButton;
     this.confirmPasswordInput = confirmPasswordInput;
     this.confirmPasswordLayout = confirmPasswordLayout;
     this.emailInput = emailInput;
     this.emailLayout = emailLayout;
+    this.loadingProgressBar = loadingProgressBar;
     this.passwordInput = passwordInput;
     this.passwordLayout = passwordLayout;
     this.registerButton = registerButton;
@@ -118,6 +124,12 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.loadingProgressBar;
+      ProgressBar loadingProgressBar = ViewBindings.findChildViewById(rootView, id);
+      if (loadingProgressBar == null) {
+        break missingId;
+      }
+
       id = R.id.passwordInput;
       TextInputEditText passwordInput = ViewBindings.findChildViewById(rootView, id);
       if (passwordInput == null) {
@@ -137,8 +149,8 @@ public final class ActivityRegisterBinding implements ViewBinding {
       }
 
       return new ActivityRegisterBinding((ScrollView) rootView, backToLoginButton,
-          confirmPasswordInput, confirmPasswordLayout, emailInput, emailLayout, passwordInput,
-          passwordLayout, registerButton);
+          confirmPasswordInput, confirmPasswordLayout, emailInput, emailLayout, loadingProgressBar,
+          passwordInput, passwordLayout, registerButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

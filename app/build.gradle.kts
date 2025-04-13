@@ -47,14 +47,17 @@ dependencies {
     implementation("com.google.firebase:firebase-analytics")
     
     // Google Sign-In
-    implementation("com.google.android.gms:play-services-auth:20.7.0")
+    implementation("com.google.android.gms:play-services-auth:21.3.0")
     
     // Animations
     implementation(libs.lottie)
-    
+    implementation(libs.firebase.database)
+    implementation(libs.firebase.firestore)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
     implementation(libs.gson)
     implementation(libs.glide)
+    implementation ("com.github.ismaeldivita:chip-navigation-bar:1.4.0")
 }

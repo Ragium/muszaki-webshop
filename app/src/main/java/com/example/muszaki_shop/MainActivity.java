@@ -2,6 +2,7 @@ package com.example.muszaki_shop;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -36,15 +37,19 @@ public class MainActivity extends AppCompatActivity {
         FirebaseUser currentUser = mAuth.getCurrentUser();
         if (currentUser != null) {
             // Ha be van jelentkezve, akkor megjelenítjük a kijelentkezési gombot
-            binding.loginButton.setVisibility(android.view.View.GONE);
-            binding.registerButton.setVisibility(android.view.View.GONE);
-            binding.logoutButton.setVisibility(android.view.View.VISIBLE);
+            binding.loginButton.setVisibility(View.GONE);
+            binding.registerButton.setVisibility(View.GONE);
+            binding.logoutButton.setVisibility(View.VISIBLE);
+            binding.profileButton.setVisibility(View.VISIBLE);
+            binding.cartButton.setVisibility(View.VISIBLE);
             binding.welcomeText.setText("Üdvözöljük a Műszaki Webshopban, " + currentUser.getEmail() + "!");
         } else {
             // Ha nincs bejelentkezve, akkor megjelenítjük a bejelentkezési és regisztrációs gombokat
-            binding.loginButton.setVisibility(android.view.View.VISIBLE);
-            binding.registerButton.setVisibility(android.view.View.VISIBLE);
-            binding.logoutButton.setVisibility(android.view.View.GONE);
+            binding.loginButton.setVisibility(View.VISIBLE);
+            binding.registerButton.setVisibility(View.VISIBLE);
+            binding.logoutButton.setVisibility(View.GONE);
+            binding.profileButton.setVisibility(View.GONE);
+            binding.cartButton.setVisibility(View.GONE);
             binding.welcomeText.setText("Üdvözöljük a Műszaki Webshopban!");
         }
 
@@ -57,16 +62,35 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(MainActivity.this, RegisterActivity.class));
         });
 
+        binding.profileButton.setOnClickListener(v -> {
+            startActivity(new Intent(MainActivity.this, ProfileActivity.class));
+        });
+
+        binding.cartButton.setOnClickListener(v -> {
+            startActivity(new Intent(MainActivity.this, CartActivity.class));
+        });
+
         binding.logoutButton.setOnClickListener(v -> {
             mAuth.signOut();
-            binding.loginButton.setVisibility(android.view.View.VISIBLE);
-            binding.registerButton.setVisibility(android.view.View.VISIBLE);
-            binding.logoutButton.setVisibility(android.view.View.GONE);
+            showLoading(true);
+            binding.loginButton.setVisibility(View.VISIBLE);
+            binding.registerButton.setVisibility(View.VISIBLE);
+            binding.logoutButton.setVisibility(View.GONE);
+            binding.profileButton.setVisibility(View.GONE);
+            binding.cartButton.setVisibility(View.GONE);
             binding.welcomeText.setText("Üdvözöljük a Műszaki Webshopban!");
         });
 
         // Termékek listázása
         setupProductsList();
+    }
+
+    private void showLoading(boolean show) {
+        binding.loadingProgressBar.setVisibility(show ? View.VISIBLE : View.GONE);
+        binding.loginButton.setEnabled(!show);
+        binding.registerButton.setEnabled(!show);
+        binding.profileButton.setEnabled(!show);
+        binding.cartButton.setEnabled(!show);
     }
 
     private void setupProductsList() {
