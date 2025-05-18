@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_home"
+            android:icon="@drawable/ic_home"
+            android:title="Főoldal" />
+        <item
+            android:id="@+id/drawer_search"
+            android:icon="@drawable/ic_search"
+            android:title="Keresés" />
+        <item
+            android:id="@+id/drawer_cart"
+            android:icon="@drawable/ic_cart"
+            android:title="Kosár" />
+        <item
+            android:id="@+id/drawer_orders"
+            android:icon="@drawable/ic_orders"
+            android:title="Rendelések" />
+        <item
+            android:id="@+id/drawer_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profil" />
+    </group>
+    <item android:title="Fiók">
+        <menu>
+            <item
+                android:id="@+id/drawer_login"
+                android:icon="@drawable/ic_login"
+                android:title="Bejelentkezés" />
+            <item
+                android:id="@+id/drawer_register"
+                android:icon="@drawable/ic_register"
+                android:title="Regisztráció" />
+            <item
+                android:id="@+id/drawer_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Kijelentkezés"
+                android:visible="false" />
+        </menu>
+    </item>
+</menu> 

@@ -54,6 +54,29 @@
             app:layout_constraintStart_toEndOf="@id/productImage"
             app:layout_constraintTop_toBottomOf="@id/productDescription" />
 
+        <RatingBar
+            android:id="@+id/productRating"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:stepSize="0.5"
+            app:layout_constraintStart_toEndOf="@id/productImage"
+            app:layout_constraintTop_toBottomOf="@id/productPrice" />
+
+        <TextView
+            android:id="@+id/ratingCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@id/productRating"
+            app:layout_constraintStart_toEndOf="@id/productRating"
+            app:layout_constraintTop_toTopOf="@id/productRating" />
+
         <com.google.android.material.button.MaterialButton
             android:id="@+id/addToCartButton"
             android:layout_width="wrap_content"
@@ -63,7 +86,17 @@
             app:icon="@drawable/ic_add_to_cart"
             app:iconGravity="textStart"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/productDescription" />
+            app:layout_constraintTop_toBottomOf="@id/productRating" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/writeReviewButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Értékelés"
+            app:layout_constraintEnd_toStartOf="@id/addToCartButton"
+            app:layout_constraintTop_toBottomOf="@id/productRating" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

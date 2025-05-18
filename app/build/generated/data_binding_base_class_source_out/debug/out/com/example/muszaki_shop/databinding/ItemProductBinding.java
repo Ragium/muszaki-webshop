@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RatingBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -36,16 +37,29 @@ public final class ItemProductBinding implements ViewBinding {
   @NonNull
   public final TextView productPrice;
 
+  @NonNull
+  public final RatingBar productRating;
+
+  @NonNull
+  public final TextView ratingCount;
+
+  @NonNull
+  public final MaterialButton writeReviewButton;
+
   private ItemProductBinding(@NonNull MaterialCardView rootView,
       @NonNull MaterialButton addToCartButton, @NonNull TextView productDescription,
       @NonNull ImageView productImage, @NonNull TextView productName,
-      @NonNull TextView productPrice) {
+      @NonNull TextView productPrice, @NonNull RatingBar productRating,
+      @NonNull TextView ratingCount, @NonNull MaterialButton writeReviewButton) {
     this.rootView = rootView;
     this.addToCartButton = addToCartButton;
     this.productDescription = productDescription;
     this.productImage = productImage;
     this.productName = productName;
     this.productPrice = productPrice;
+    this.productRating = productRating;
+    this.ratingCount = ratingCount;
+    this.writeReviewButton = writeReviewButton;
   }
 
   @Override
@@ -105,8 +119,27 @@ public final class ItemProductBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.productRating;
+      RatingBar productRating = ViewBindings.findChildViewById(rootView, id);
+      if (productRating == null) {
+        break missingId;
+      }
+
+      id = R.id.ratingCount;
+      TextView ratingCount = ViewBindings.findChildViewById(rootView, id);
+      if (ratingCount == null) {
+        break missingId;
+      }
+
+      id = R.id.writeReviewButton;
+      MaterialButton writeReviewButton = ViewBindings.findChildViewById(rootView, id);
+      if (writeReviewButton == null) {
+        break missingId;
+      }
+
       return new ItemProductBinding((MaterialCardView) rootView, addToCartButton,
-          productDescription, productImage, productName, productPrice);
+          productDescription, productImage, productName, productPrice, productRating, ratingCount,
+          writeReviewButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

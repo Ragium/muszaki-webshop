@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.muszaki_shop.app-mergeDebugResources-43:/values-pt-rPT/values-pt-rPT.xml",
+            "outputFile": "com.example.muszaki_shop.app-mergeDebugResources-50:/values-pt-rPT/values-pt-rPT.xml",
             "map": [
                 {
                     "source": "C:\\Users\\PC\\.gradle\\caches\\8.11.1\\transforms\\35f7f57facfde250c1534297a7800dc3\\transformed\\play-services-base-18.5.0\\res\\values-pt-rPT\\values.xml",

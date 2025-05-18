@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.muszaki_shop.app-mergeDebugResources-43:/values-da/values-da.xml",
+            "outputFile": "com.example.muszaki_shop.app-mergeDebugResources-50:/values-da/values-da.xml",
             "map": [
                 {
                     "source": "C:\\Users\\PC\\.gradle\\caches\\8.11.1\\transforms\\213dfef437da165f010f3a4973217d0e\\transformed\\browser-1.4.0\\res\\values-da\\values-da.xml",

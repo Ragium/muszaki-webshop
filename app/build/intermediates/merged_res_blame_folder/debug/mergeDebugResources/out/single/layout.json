@@ -1,30 +1,86 @@
 [
     {
-        "merged": "com.example.muszaki_shop.app-mergeDebugResources-44:/layout/activity_cart.xml",
-        "source": "com.example.muszaki_shop.app-main-47:/layout/activity_cart.xml"
+        "merged": "com.example.muszaki_shop.app-mergeDebugResources-51:/layout/fragment_search.xml",
+        "source": "com.example.muszaki_shop.app-main-54:/layout/fragment_search.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-mergeDebugResources-44:/layout/item_product.xml",
-        "source": "com.example.muszaki_shop.app-main-47:/layout/item_product.xml"
+        "merged": "com.example.muszaki_shop.app-mergeDebugResources-51:/layout/activity_register.xml",
+        "source": "com.example.muszaki_shop.app-main-54:/layout/activity_register.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-mergeDebugResources-44:/layout/activity_main.xml",
-        "source": "com.example.muszaki_shop.app-main-47:/layout/activity_main.xml"
+        "merged": "com.example.muszaki_shop.app-mergeDebugResources-51:/layout/item_cart.xml",
+        "source": "com.example.muszaki_shop.app-main-54:/layout/item_cart.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-mergeDebugResources-44:/layout/activity_register.xml",
-        "source": "com.example.muszaki_shop.app-main-47:/layout/activity_register.xml"
+        "merged": "com.example.muszaki_shop.app-mergeDebugResources-51:/layout/item_order_item.xml",
+        "source": "com.example.muszaki_shop.app-main-54:/layout/item_order_item.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-mergeDebugResources-44:/layout/activity_profile.xml",
-        "source": "com.example.muszaki_shop.app-main-47:/layout/activity_profile.xml"
+        "merged": "com.example.muszaki_shop.app-mergeDebugResources-51:/layout/activity_profile.xml",
+        "source": "com.example.muszaki_shop.app-main-54:/layout/activity_profile.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-mergeDebugResources-44:/layout/activity_login.xml",
-        "source": "com.example.muszaki_shop.app-main-47:/layout/activity_login.xml"
+        "merged": "com.example.muszaki_shop.app-mergeDebugResources-51:/layout/activity_main.xml",
+        "source": "com.example.muszaki_shop.app-main-54:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-mergeDebugResources-44:/layout/item_cart.xml",
-        "source": "com.example.muszaki_shop.app-main-47:/layout/item_cart.xml"
+        "merged": "com.example.muszaki_shop.app-mergeDebugResources-51:/layout/activity_complete_profile.xml",
+        "source": "com.example.muszaki_shop.app-main-54:/layout/activity_complete_profile.xml"
+    },
+    {
+        "merged": "com.example.muszaki_shop.app-mergeDebugResources-51:/layout/fragment_orders.xml",
+        "source": "com.example.muszaki_shop.app-main-54:/layout/fragment_orders.xml"
+    },
+    {
+        "merged": "com.example.muszaki_shop.app-mergeDebugResources-51:/layout/fragment_product_review.xml",
+        "source": "com.example.muszaki_shop.app-main-54:/layout/fragment_product_review.xml"
+    },
+    {
+        "merged": "com.example.muszaki_shop.app-mergeDebugResources-51:/layout/fragment_home.xml",
+        "source": "com.example.muszaki_shop.app-main-54:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.muszaki_shop.app-mergeDebugResources-51:/layout/content_cart.xml",
+        "source": "com.example.muszaki_shop.app-main-54:/layout/content_cart.xml"
+    },
+    {
+        "merged": "com.example.muszaki_shop.app-mergeDebugResources-51:/layout/activity_login.xml",
+        "source": "com.example.muszaki_shop.app-main-54:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.muszaki_shop.app-mergeDebugResources-51:/layout/content_main.xml",
+        "source": "com.example.muszaki_shop.app-main-54:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.example.muszaki_shop.app-mergeDebugResources-51:/layout/fragment_store_locator.xml",
+        "source": "com.example.muszaki_shop.app-main-54:/layout/fragment_store_locator.xml"
+    },
+    {
+        "merged": "com.example.muszaki_shop.app-mergeDebugResources-51:/layout/item_order.xml",
+        "source": "com.example.muszaki_shop.app-main-54:/layout/item_order.xml"
+    },
+    {
+        "merged": "com.example.muszaki_shop.app-mergeDebugResources-51:/layout/activity_cart.xml",
+        "source": "com.example.muszaki_shop.app-main-54:/layout/activity_cart.xml"
+    },
+    {
+        "merged": "com.example.muszaki_shop.app-mergeDebugResources-51:/layout/fragment_cart.xml",
+        "source": "com.example.muszaki_shop.app-main-54:/layout/fragment_cart.xml"
+    },
+    {
+        "merged": "com.example.muszaki_shop.app-mergeDebugResources-51:/layout/content_profile.xml",
+        "source": "com.example.muszaki_shop.app-main-54:/layout/content_profile.xml"
+    },
+    {
+        "merged": "com.example.muszaki_shop.app-mergeDebugResources-51:/layout/fragment_profile.xml",
+        "source": "com.example.muszaki_shop.app-main-54:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.example.muszaki_shop.app-mergeDebugResources-51:/layout/item_product.xml",
+        "source": "com.example.muszaki_shop.app-main-54:/layout/item_product.xml"
+    },
+    {
+        "merged": "com.example.muszaki_shop.app-mergeDebugResources-51:/layout/fragment_products.xml",
+        "source": "com.example.muszaki_shop.app-main-54:/layout/fragment_products.xml"
     }
 ]

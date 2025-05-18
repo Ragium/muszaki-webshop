@@ -4,72 +4,59 @@ package com.example.muszaki_shop.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
+import android.widget.FrameLayout;
 import android.widget.ProgressBar;
-import android.widget.ScrollView;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.recyclerview.widget.RecyclerView;
+import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.muszaki_shop.R;
-import com.google.android.material.button.MaterialButton;
+import com.google.android.material.appbar.MaterialToolbar;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.google.android.material.navigation.NavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final ScrollView rootView;
+  private final DrawerLayout rootView;
 
   @NonNull
-  public final LinearLayout buttonsLayout;
+  public final BottomNavigationView bottomNavigationView;
 
   @NonNull
-  public final MaterialButton cartButton;
+  public final FrameLayout contentFrame;
+
+  @NonNull
+  public final DrawerLayout drawerLayout;
 
   @NonNull
   public final ProgressBar loadingProgressBar;
 
   @NonNull
-  public final MaterialButton loginButton;
+  public final NavigationView navigationView;
 
   @NonNull
-  public final MaterialButton logoutButton;
+  public final MaterialToolbar topAppBar;
 
-  @NonNull
-  public final RecyclerView productsRecyclerView;
-
-  @NonNull
-  public final MaterialButton profileButton;
-
-  @NonNull
-  public final MaterialButton registerButton;
-
-  @NonNull
-  public final TextView welcomeText;
-
-  private ActivityMainBinding(@NonNull ScrollView rootView, @NonNull LinearLayout buttonsLayout,
-      @NonNull MaterialButton cartButton, @NonNull ProgressBar loadingProgressBar,
-      @NonNull MaterialButton loginButton, @NonNull MaterialButton logoutButton,
-      @NonNull RecyclerView productsRecyclerView, @NonNull MaterialButton profileButton,
-      @NonNull MaterialButton registerButton, @NonNull TextView welcomeText) {
+  private ActivityMainBinding(@NonNull DrawerLayout rootView,
+      @NonNull BottomNavigationView bottomNavigationView, @NonNull FrameLayout contentFrame,
+      @NonNull DrawerLayout drawerLayout, @NonNull ProgressBar loadingProgressBar,
+      @NonNull NavigationView navigationView, @NonNull MaterialToolbar topAppBar) {
     this.rootView = rootView;
-    this.buttonsLayout = buttonsLayout;
-    this.cartButton = cartButton;
+    this.bottomNavigationView = bottomNavigationView;
+    this.contentFrame = contentFrame;
+    this.drawerLayout = drawerLayout;
     this.loadingProgressBar = loadingProgressBar;
-    this.loginButton = loginButton;
-    this.logoutButton = logoutButton;
-    this.productsRecyclerView = productsRecyclerView;
-    this.profileButton = profileButton;
-    this.registerButton = registerButton;
-    this.welcomeText = welcomeText;
+    this.navigationView = navigationView;
+    this.topAppBar = topAppBar;
   }
 
   @Override
   @NonNull
-  public ScrollView getRoot() {
+  public DrawerLayout getRoot() {
     return rootView;
   }
 
@@ -94,17 +81,19 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.buttonsLayout;
-      LinearLayout buttonsLayout = ViewBindings.findChildViewById(rootView, id);
-      if (buttonsLayout == null) {
+      id = R.id.bottomNavigationView;
+      BottomNavigationView bottomNavigationView = ViewBindings.findChildViewById(rootView, id);
+      if (bottomNavigationView == null) {
         break missingId;
       }
 
-      id = R.id.cartButton;
-      MaterialButton cartButton = ViewBindings.findChildViewById(rootView, id);
-      if (cartButton == null) {
+      id = R.id.contentFrame;
+      FrameLayout contentFrame = ViewBindings.findChildViewById(rootView, id);
+      if (contentFrame == null) {
         break missingId;
       }
+
+      DrawerLayout drawerLayout = (DrawerLayout) rootView;
 
       id = R.id.loadingProgressBar;
       ProgressBar loadingProgressBar = ViewBindings.findChildViewById(rootView, id);
@@ -112,45 +101,20 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.loginButton;
-      MaterialButton loginButton = ViewBindings.findChildViewById(rootView, id);
-      if (loginButton == null) {
+      id = R.id.navigationView;
+      NavigationView navigationView = ViewBindings.findChildViewById(rootView, id);
+      if (navigationView == null) {
         break missingId;
       }
 
-      id = R.id.logoutButton;
-      MaterialButton logoutButton = ViewBindings.findChildViewById(rootView, id);
-      if (logoutButton == null) {
+      id = R.id.topAppBar;
+      MaterialToolbar topAppBar = ViewBindings.findChildViewById(rootView, id);
+      if (topAppBar == null) {
         break missingId;
       }
 
-      id = R.id.productsRecyclerView;
-      RecyclerView productsRecyclerView = ViewBindings.findChildViewById(rootView, id);
-      if (productsRecyclerView == null) {
-        break missingId;
-      }
-
-      id = R.id.profileButton;
-      MaterialButton profileButton = ViewBindings.findChildViewById(rootView, id);
-      if (profileButton == null) {
-        break missingId;
-      }
-
-      id = R.id.registerButton;
-      MaterialButton registerButton = ViewBindings.findChildViewById(rootView, id);
-      if (registerButton == null) {
-        break missingId;
-      }
-
-      id = R.id.welcomeText;
-      TextView welcomeText = ViewBindings.findChildViewById(rootView, id);
-      if (welcomeText == null) {
-        break missingId;
-      }
-
-      return new ActivityMainBinding((ScrollView) rootView, buttonsLayout, cartButton,
-          loadingProgressBar, loginButton, logoutButton, productsRecyclerView, profileButton,
-          registerButton, welcomeText);
+      return new ActivityMainBinding((DrawerLayout) rootView, bottomNavigationView, contentFrame,
+          drawerLayout, loadingProgressBar, navigationView, topAppBar);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

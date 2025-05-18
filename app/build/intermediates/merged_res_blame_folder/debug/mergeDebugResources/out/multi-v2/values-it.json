@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.muszaki_shop.app-mergeDebugResources-43:/values-it/values-it.xml",
+            "outputFile": "com.example.muszaki_shop.app-mergeDebugResources-50:/values-it/values-it.xml",
             "map": [
                 {
                     "source": "C:\\Users\\PC\\.gradle\\caches\\8.11.1\\transforms\\b18312ed1bc8d54a46b952993cfdfc69\\transformed\\play-services-basement-18.5.0\\res\\values-it\\values.xml",

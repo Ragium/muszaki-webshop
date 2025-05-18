@@ -1,502 +1,622 @@
 [
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxhdpi_share.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxhdpi/share.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\ic_home.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-mdpi_btn_2.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-mdpi/btn_2.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxxhdpi_btn_4.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxxhdpi\\btn_4.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxhdpi_microphone.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxhdpi/microphone.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-ldpi_search_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-ldpi\\search_icon.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-ldpi_cart_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-ldpi/cart_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\layout_fragment_orders.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\layout\\fragment_orders.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable_ic_profile.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable/ic_profile.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xhdpi_star.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xhdpi\\star.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxxhdpi_btn_4.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxxhdpi/btn_4.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxhdpi_back.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxhdpi\\back.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xhdpi_btn_2.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xhdpi/btn_2.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xhdpi_search_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xhdpi\\search_icon.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-hdpi_btn_4.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-hdpi/btn_4.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\raw_login_animation.json.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\raw\\login_animation.json"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xhdpi_profile.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xhdpi/profile.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-ldpi_star.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-ldpi\\star.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-ldpi_btn_4.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-ldpi/btn_4.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxhdpi_btn_3.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxhdpi\\btn_3.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-ldpi_splash_pic.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-ldpi/splash_pic.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xhdpi_btn_1.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xhdpi\\btn_1.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/layout_activity_cart.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/layout/activity_cart.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\ic_add.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-hdpi_share.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-hdpi/share.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-hdpi_search_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-hdpi\\search_icon.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-hdpi_back.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-hdpi/back.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_ic_google.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\ic_google.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxhdpi_back.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxhdpi/back.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxxhdpi_btn_3.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxxhdpi\\btn_3.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable_ic_add.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable/ic_add.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_ic_add_to_cart.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\ic_add_to_cart.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxxhdpi_search_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxxhdpi/search_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-hdpi_profile.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-hdpi/profile.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_ic_image.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\ic_image.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/layout_activity_login.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/layout/activity_login.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxxhdpi_share.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxxhdpi/share.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable_loading_animation.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable/loading_animation.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxxhdpi_bell_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxxhdpi\\bell_icon.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xhdpi_cart_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xhdpi/cart_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxhdpi_cart_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxhdpi\\cart_icon.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\layout\\activity_profile.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxxhdpi_btn_3.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxxhdpi/btn_3.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xhdpi_btn_2.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xhdpi\\btn_2.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-mdpi_cart_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-mdpi/cart_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\layout_fragment_search.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\layout\\fragment_search.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xhdpi_settings_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xhdpi/settings_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-hdpi_fav.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-hdpi\\fav.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-mdpi_star.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-mdpi/star.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-hdpi_settings_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-hdpi/settings_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-hdpi_cart_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-hdpi\\cart_icon.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxxhdpi_microphone.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxxhdpi/microphone.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xhdpi_splash_pic.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xhdpi/splash_pic.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-mdpi_btn_4.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-mdpi\\btn_4.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxhdpi_splash_pic.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxhdpi\\splash_pic.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-mdpi_fav.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-mdpi/fav.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxxhdpi_microphone.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxxhdpi\\microphone.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-hdpi_btn_3.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-hdpi/btn_3.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xhdpi_cart_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xhdpi\\cart_icon.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-ldpi_bell_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-ldpi/bell_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xhdpi_splash_pic.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xhdpi\\splash_pic.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xhdpi_btn_1.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xhdpi/btn_1.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxhdpi_bell_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxhdpi\\bell_icon.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-mdpi_search_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-mdpi/search_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxhdpi_search_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxhdpi\\search_icon.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xhdpi_btn_3.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xhdpi\\btn_3.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxxhdpi_btn_2.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxxhdpi/btn_2.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xhdpi_settings_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xhdpi\\settings_icon.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xhdpi_btn_4.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xhdpi/btn_4.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\layout_content_profile.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\layout\\content_profile.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-mdpi_profile.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-mdpi/profile.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxxhdpi_share.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxxhdpi\\share.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-hdpi_search_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-hdpi/search_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/layout_item_product.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/layout/item_product.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxhdpi_btn_4.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxhdpi\\btn_4.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxxhdpi_star.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxxhdpi/star.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxxhdpi_cart_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxxhdpi\\cart_icon.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/layout_activity_register.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/layout/activity_register.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxxhdpi_settings_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxxhdpi\\settings_icon.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xhdpi_share.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xhdpi/share.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\layout\\content_main.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-ldpi_settings_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-ldpi\\settings_icon.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/raw_login_animation.json.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/raw/login_animation.json"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-hdpi_bell_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-hdpi\\bell_icon.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-mdpi_bell_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-mdpi/bell_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxhdpi_btn_1.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxhdpi\\btn_1.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxhdpi_btn_1.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxhdpi/btn_1.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-mdpi_splash_pic.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-mdpi\\splash_pic.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxhdpi_fav.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxhdpi/fav.png"
+        "merged": "com.example.muszaki_shop.app-debug-52:/drawable_ic_notification.xml.flat",
+        "source": "com.example.muszaki_shop.app-main-54:/drawable/ic_notification.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxhdpi_btn_4.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxhdpi/btn_4.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxxhdpi_back.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxxhdpi\\back.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-ldpi_btn_3.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-ldpi/btn_3.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-ldpi_search_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-ldpi/search_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxxhdpi_fav.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxxhdpi\\fav.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-mdpi_btn_3.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-mdpi/btn_3.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_ic_login.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\ic_login.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xhdpi_fav.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xhdpi/fav.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-ldpi_btn_2.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-ldpi\\btn_2.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/xml_backup_rules.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_placeholder_image.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\placeholder_image.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/layout_item_cart.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/layout/item_cart.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\menu_main_menu.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\menu\\main_menu.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxhdpi_cart_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxhdpi/cart_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxhdpi_settings_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxhdpi\\settings_icon.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-ldpi_share.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-ldpi\\share.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-ldpi_back.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-ldpi\\back.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable_ic_remove.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable/ic_remove.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-hdpi_btn_2.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-hdpi\\btn_2.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-hdpi_btn_1.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-hdpi/btn_1.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxhdpi_microphone.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxhdpi\\microphone.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxhdpi_btn_2.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxhdpi/btn_2.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxxhdpi_splash_pic.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxxhdpi\\splash_pic.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-ldpi_btn_1.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-ldpi/btn_1.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-mdpi_share.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-mdpi\\share.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxxhdpi_back.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxxhdpi/back.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxxhdpi_search_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxxhdpi\\search_icon.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxhdpi_star.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxhdpi/star.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-ldpi_splash_pic.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-ldpi\\splash_pic.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable_ic_add_to_cart.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable/ic_add_to_cart.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-hdpi_star.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-hdpi/star.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxhdpi_profile.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxhdpi\\profile.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxhdpi_settings_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxhdpi/settings_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\layout_fragment_store_locator.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\layout\\fragment_store_locator.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-hdpi_microphone.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-hdpi/microphone.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-hdpi_share.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-hdpi\\share.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-mdpi_microphone.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-mdpi/microphone.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-mdpi_settings_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-mdpi\\settings_icon.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-hdpi_cart_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-hdpi/cart_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-hdpi_profile.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-hdpi\\profile.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-ldpi_back.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-ldpi/back.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-mdpi_btn_2.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-mdpi\\btn_2.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxxhdpi_btn_2.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxxhdpi\\btn_2.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-hdpi_btn_2.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-hdpi/btn_2.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_loading_circle.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\loading_circle.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xhdpi_microphone.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xhdpi/microphone.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xhdpi_microphone.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xhdpi\\microphone.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxxhdpi_profile.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxxhdpi\\profile.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable_placeholder.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable/placeholder.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\layout_item_cart.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\layout\\item_cart.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xhdpi_back.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xhdpi/back.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-hdpi_btn_3.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-hdpi\\btn_3.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xhdpi_search_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xhdpi/search_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_placeholder.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\placeholder.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxhdpi_bell_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxhdpi/bell_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-mdpi_btn_1.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-mdpi\\btn_1.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-mdpi_back.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-mdpi/back.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\ic_search.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-ldpi_btn_2.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-ldpi/btn_2.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_ic_products.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\ic_products.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxhdpi_search_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxhdpi/search_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xhdpi_bell_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xhdpi\\bell_icon.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-ldpi_profile.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-ldpi/profile.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_ic_orders.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\ic_orders.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxxhdpi_cart_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxxhdpi/cart_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\menu\\bottom_nav_menu.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable_loading_circle_inner.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable/loading_circle_inner.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-hdpi_fav.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-hdpi/fav.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\layout_item_product.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\layout\\item_product.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxxhdpi_profile.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxxhdpi/profile.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-hdpi_settings_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-hdpi\\settings_icon.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-mdpi_settings_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-mdpi/settings_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-hdpi_splash_pic.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-hdpi\\splash_pic.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xhdpi_star.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xhdpi/star.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-ldpi_cart_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-ldpi\\cart_icon.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-ldpi_microphone.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-ldpi/microphone.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xhdpi_share.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xhdpi\\share.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxhdpi_profile.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxhdpi/profile.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-ldpi_btn_3.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-ldpi\\btn_3.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-hdpi_star.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-hdpi\\star.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-hdpi_bell_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-hdpi/bell_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_ic_logout.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\ic_logout.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable_loading_circle.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable/loading_circle.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\layout_fragment_product_review.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\layout\\fragment_product_review.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-hdpi_splash_pic.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-hdpi/splash_pic.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxxhdpi_star.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxxhdpi\\star.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-mdpi_btn_1.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-mdpi/btn_1.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-hdpi_btn_4.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-hdpi\\btn_4.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable_loading_circle_outer.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable/loading_circle_outer.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_loading_circle_outer.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\loading_circle_outer.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxhdpi_btn_3.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxhdpi/btn_3.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\layout_fragment_cart.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\layout\\fragment_cart.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/layout_activity_profile.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/layout/activity_profile.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxxhdpi_btn_1.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxxhdpi\\btn_1.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-mdpi_btn_4.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-mdpi/btn_4.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxhdpi_splash_pic.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxhdpi/splash_pic.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_error_image.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\error_image.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-ldpi_star.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-ldpi/star.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_ic_remove.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\ic_remove.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xhdpi_fav.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xhdpi\\fav.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-ldpi_share.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-ldpi/share.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-mdpi_search_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-mdpi\\search_icon.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-mdpi_share.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-mdpi/share.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-mdpi_cart_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-mdpi\\cart_icon.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxxhdpi_splash_pic.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxxhdpi/splash_pic.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-ldpi_btn_4.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-ldpi\\btn_4.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-mdpi_splash_pic.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-mdpi/splash_pic.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_ic_menu.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\ic_menu.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-ldpi_settings_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-ldpi/settings_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/layout_activity_main.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/layout/activity_main.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\ic_delete.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxxhdpi_fav.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxxhdpi/fav.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-mdpi_profile.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-mdpi\\profile.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxxhdpi_btn_1.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxxhdpi/btn_1.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-mdpi_fav.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-mdpi\\fav.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxxhdpi_bell_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxxhdpi/bell_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-ldpi_microphone.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-ldpi\\microphone.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable_ic_google.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable/ic_google.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\menu_drawer_menu.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\menu\\drawer_menu.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xhdpi_bell_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xhdpi/bell_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_loading_circle_inner.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\loading_circle_inner.xml"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-ldpi_fav.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-ldpi/fav.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-ldpi_btn_1.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-ldpi\\btn_1.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable_ic_cart.xml.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable/ic_cart.xml"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-ldpi_bell_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-ldpi\\bell_icon.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xhdpi_btn_3.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xhdpi/btn_3.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-hdpi_back.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-hdpi\\back.png"
     },
     {
-        "merged": "com.example.muszaki_shop.app-debug-45:/drawable-xxxhdpi_settings_icon.png.flat",
-        "source": "com.example.muszaki_shop.app-main-47:/drawable-xxxhdpi/settings_icon.png"
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\layout_fragment_products.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\layout\\fragment_products.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-mdpi_microphone.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-mdpi\\microphone.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-hdpi_microphone.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-hdpi\\microphone.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\layout_item_order.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\layout\\item_order.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-hdpi_btn_1.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-hdpi\\btn_1.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xhdpi_back.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xhdpi\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-ldpi_profile.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-ldpi\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxhdpi_star.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxhdpi\\star.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\layout_activity_cart.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\layout\\activity_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_loading_animation.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\loading_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xhdpi_btn_4.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xhdpi\\btn_4.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-mdpi_btn_3.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-mdpi\\btn_3.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\layout_activity_complete_profile.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\layout\\activity_complete_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxhdpi_share.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxhdpi\\share.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_ic_cart.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\ic_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\layout_item_order_item.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\layout\\item_order_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxhdpi_fav.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxhdpi\\fav.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-ldpi_fav.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-ldpi\\fav.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_ic_register.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\ic_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xxhdpi_btn_2.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xxhdpi\\btn_2.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-mdpi_star.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-mdpi\\star.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-mdpi_bell_icon.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-mdpi\\bell_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-mdpi_back.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-mdpi\\back.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable-xhdpi_profile.png.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable-xhdpi\\profile.png"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\layout_content_cart.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\layout\\content_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-debug-52:\\drawable_ic_profile.xml.flat",
+        "source": "C:\\Users\\PC\\.gradle\\daemon\\8.11.1\\com.example.muszaki_shop.app-main-54:\\drawable\\ic_profile.xml"
     }
 ]

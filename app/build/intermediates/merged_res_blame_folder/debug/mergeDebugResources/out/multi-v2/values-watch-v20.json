@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.muszaki_shop.app-mergeDebugResources-43:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.example.muszaki_shop.app-mergeDebugResources-50:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
                     "source": "C:\\Users\\PC\\.gradle\\caches\\8.11.1\\transforms\\63ed1ecf95b75100eeda9df0e63241d4\\transformed\\play-services-auth-21.3.0\\res\\values-watch-v20\\values.xml",

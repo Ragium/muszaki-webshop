@@ -7,101 +7,85 @@
     app:cardCornerRadius="8dp"
     app:cardElevation="4dp">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
         android:padding="8dp">
 
         <ImageView
-            android:id="@+id/productImage"
+            android:id="@+id/cartItemImage"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:scaleType="centerCrop"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/productName"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toStartOf="@+id/removeButton"
-            app:layout_constraintStart_toEndOf="@+id/productImage"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/productPrice"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="4dp"
-            android:textColor="@color/design_default_color_primary"
-            android:textSize="14sp"
-            app:layout_constraintEnd_toStartOf="@+id/removeButton"
-            app:layout_constraintStart_toEndOf="@+id/productImage"
-            app:layout_constraintTop_toBottomOf="@+id/productName" />
+            android:src="@drawable/placeholder" />
 
         <LinearLayout
-            android:id="@+id/quantityLayout"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
-            app:layout_constraintStart_toEndOf="@+id/productImage"
-            app:layout_constraintTop_toBottomOf="@+id/productPrice">
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/decreaseButton"
-                style="@style/Widget.MaterialComponents.Button.TextButton"
-                android:layout_width="32dp"
-                android:layout_height="32dp"
-                android:insetLeft="0dp"
-                android:insetTop="0dp"
-                android:insetRight="0dp"
-                android:insetBottom="0dp"
-                android:padding="0dp"
-                app:icon="@drawable/ic_remove"
-                app:iconGravity="textStart"
-                app:iconPadding="0dp" />
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="8dp">
 
             <TextView
-                android:id="@+id/quantityText"
-                android:layout_width="wrap_content"
+                android:id="@+id/cartItemName"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="8dp"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/increaseButton"
-                style="@style/Widget.MaterialComponents.Button.TextButton"
-                android:layout_width="32dp"
-                android:layout_height="32dp"
-                android:insetLeft="0dp"
-                android:insetTop="0dp"
-                android:insetRight="0dp"
-                android:insetBottom="0dp"
-                android:padding="0dp"
-                app:icon="@drawable/ic_add"
-                app:iconGravity="textStart"
-                app:iconPadding="0dp" />
+            <TextView
+                android:id="@+id/cartItemPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@android:color/holo_red_dark" />
 
+            <TextView
+                android:id="@+id/cartItemTotalPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_green_dark" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageButton
+                    android:id="@+id/decreaseButton"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_remove"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <TextView
+                    android:id="@+id/quantityText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/increaseButton"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_add"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+                <ImageButton
+                    android:id="@+id/removeButton"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:layout_marginStart="8dp"
+                    android:src="@drawable/ic_delete"
+                    android:background="?attr/selectableItemBackgroundBorderless" />
+
+            </LinearLayout>
         </LinearLayout>
-
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/removeButton"
-            style="@style/Widget.MaterialComponents.Button.TextButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Eltávolítás"
-            android:textColor="@android:color/holo_red_dark"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
+    </LinearLayout>
 </androidx.cardview.widget.CardView> 
